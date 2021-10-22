@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_acolher_app"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/fundo_image"
+        android:padding="20dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/text_vnome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="10"
+        android:text="nome"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_vsexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_vnome"
+        android:layout_centerHorizontal="true"
+        android:text="Sexo" />
+
+    <TextView
+        android:id="@+id/text_vrecebe_visita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_vsexo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="Visitou a igreja? Sim" />
+
+    <TextView
+        android:id="@+id/text_dia_vvisita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_vrecebe_visita"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right"
+        android:background="@drawable/fundo_data"
+        android:gravity="center"
+        android:padding="4dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Dia da visita"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_dia_vvisita"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_vddd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="3dp"
+            android:text="DDD" />
+
+        <TextView
+            android:id="@+id/text_vtel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="Telefone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_vemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_tel"
+        android:layout_centerHorizontal="true"
+        android:text="visitante@email.com" />
+
+
+    <TextView
+        android:id="@+id/txt_vcompanhia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_vemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:text="acompanhantes" />
+
+    <ImageButton
+        android:id="@+id/btn_edit_visitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_vcompanhia"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/botao_cadastrar"
+        android:padding="10dp"
+        android:src="@drawable/edit_white"
+        android:onClick="editVisitante"/>
+
+    <ImageButton
+        android:id="@+id/btn_delete_visitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_vcompanhia"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/botao_cadastrar"
+        android:padding="10dp"
+        android:onClick="deleteVisitante"
+        android:src="@drawable/delete_white" />
+
+
+    <ImageButton
+        android:id="@+id/img_btn_zap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#40C351"
+        android:onClick="enviaZap"
+        android:padding="5dp"
+        android:src="@drawable/zap_icon_peq" />
+
+</RelativeLayout>
+
+

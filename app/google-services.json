@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1045216680230",
+    "firebase_url": "https://acolherapp.firebaseio.com",
+    "project_id": "acolherapp",
+    "storage_bucket": "acolherapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045216680230:android:6c2baeee089aff983609e7",
+        "android_client_info": {
+          "package_name": "br.com.smartzu.acolherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045216680230-2thq4qdlung8qei170o28tt9tnncnso6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.smartzu.acolherapp",
+            "certificate_hash": "530af134f2381ff42839a9ee4172b607a4a4b68d"
+          }
+        },
+        {
+          "client_id": "1045216680230-bqnc4mqeqn7hbhnemfgqkcgd6bv1kf5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs88A2xP2NFHXV4xXAK7HI6d5uWVJXcKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045216680230-bqnc4mqeqn7hbhnemfgqkcgd6bv1kf5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

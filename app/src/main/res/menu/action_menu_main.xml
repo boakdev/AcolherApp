@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuConfig"
+        android:icon="@drawable/settings_white_24dp"
+        android:title="Configuração"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuSincro"
+        android:icon="@drawable/autorenew_white_24dp"
+        android:title="Sincronizar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuAjuda"
+        android:icon="@drawable/help_white_24dp"
+        android:title="Ajuda"
+        app:showAsAction="never|withText" />
+</menu>

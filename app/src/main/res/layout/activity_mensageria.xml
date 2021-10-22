@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg_acolher_app"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_tituloNotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#F5DEB3"
+        android:hint="Título"
+        android:inputType="text"
+        android:maxLength="30"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="#f08324" />
+
+    <EditText
+        android:id="@+id/edt_corpoNotif"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="#F5DEB3"
+        android:hint="mensagem..."
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:lines="5"
+        android:maxLines="5"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="#f08324" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/fundo_menu_main"
+        android:onClick="enviarNotificacao"
+        android:padding="15dp"
+        android:text="Enviar Notificação"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
